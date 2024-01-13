@@ -9,7 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2px 250px;
+    padding: 2px 200px;
 }
 
 .header ul {
@@ -20,6 +20,7 @@ body {
     color: #e5e7eb;
     font-size: 18px;
     font-weight: lighter;
+    flex-shrink: 0;
 }
 
 .header h1 {
